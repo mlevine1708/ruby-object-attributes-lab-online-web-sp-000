@@ -4,4 +4,9 @@ class Dog
     @dog = dog
     @breed = breed
   end
+
+
+def dog
+  "#{@dog} #{breed}".strip
+  end
 end
