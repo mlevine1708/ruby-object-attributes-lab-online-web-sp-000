@@ -4,4 +4,3 @@ class Dog
     @dog = dog
     @breed = breed
   end
-
