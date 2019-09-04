@@ -15,4 +15,9 @@ class Person
   def job
     @job
   end
+
+  def name
+    "#{@name} #{@job}".strip
+  end
+  
 end
