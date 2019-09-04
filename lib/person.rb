@@ -19,5 +19,5 @@ class Person
   def name
     "#{@name} #{@job}".strip
   end
-  
+
 end
