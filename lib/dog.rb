@@ -6,7 +6,7 @@ class Dog
   end
 
 
-def dog
+def dog(name)
   "#{@dog} #{breed}".strip
   end
 end
