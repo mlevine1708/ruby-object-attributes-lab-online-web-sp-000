@@ -1,6 +1,6 @@
 class Person
 
-  def name(name)
+  def name=(name)
     @name = name
   end
 
@@ -8,7 +8,7 @@ class Person
     @name
   end
 
-  def job(job)
+  def job=(job)
     @job = job
   end
 
@@ -16,8 +16,6 @@ class Person
     @job
   end
 
-  def name
-    "#{@name} #{@job}".strip
-  end
+  
 
 end
